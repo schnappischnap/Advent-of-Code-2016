@@ -11,8 +11,8 @@ def is_int(s):
 # Part 1
 def get_password(input):
     code = []
-    i = 0
 
+    i = 0
     while len(code) < 8:
         hash = hashlib.md5(input + str(i)).hexdigest()
         if hash.startswith("00000"):
@@ -26,8 +26,8 @@ def get_password(input):
 # Part 2
 def get_second_password(input):
     code = ["X","X","X","X","X","X","X","X"]
-    i = 0
 
+    i = 0
     while "X" in code:
         hash = hashlib.md5(input + str(i)).hexdigest()
         if hash.startswith("00000"):
@@ -40,9 +40,8 @@ def get_second_password(input):
     return "".join(code)
 
 
-if __name__ == "__main__":    
-    input = raw_input("Part 1 input: ")
-    print("Puzzle answer: " + str(get_password(input)))
-
-    input = raw_input("\nPart 2 input: ")
-    print("Puzzle answer: " + str(get_second_password(input)))
+if __name__ == "__main__":
+    with open("day_5_input.txt") as f:
+        input = f.readlines()[0]
+        print "Part 1 answer: " + str(get_password(input))
+        print "Part 2 answer: " + str(get_second_password(input))

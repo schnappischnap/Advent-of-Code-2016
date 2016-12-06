@@ -28,7 +28,15 @@
     <Compile Include="Day_3_Squares_With_Three_Sides.py" />
     <Compile Include="Day_4_Security_Through_Obscurity.py" />
     <Compile Include="Day_5_How_About_a_Nice_Game_of_Chess.py" />
-    <Compile Include="Day_6__Signals_and_Noise.py" />
+    <Compile Include="Day_6_Signals_and_Noise.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="day_1_input.txt" />
+    <Content Include="day_2_input.txt" />
+    <Content Include="day_3_input.txt" />
+    <Content Include="day_4_input.txt" />
+    <Content Include="day_5_input.txt" />
+    <Content Include="day_6_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,16 +1,3 @@
-def get_list_input():
-    l = []
-    i = 0
-    while True:
-        input = raw_input(str(i) + ": ")
-        if input == "":
-            break
-        l.append(input)
-        i += 1
-
-    return l
-
-
 # Part 1
 def solve_9_keypad(steps):
     code = []
@@ -67,10 +54,7 @@ def solve_fancy_keypad(steps):
 
 
 if __name__ == "__main__":    
-    print "Part 1 input:"
-    a = get_list_input()   
-    print "Puzzle answer: " + str(solve_9_keypad(a))
-
-    print "Part 2 input:"
-    a = get_list_input()
-    print "Puzzle answer: " + str(solve_fancy_keypad(a))
+    with open("day_2_input.txt") as f:
+        input = f.readlines()
+        print "Part 1 answer: " + str(solve_9_keypad(input))
+        print "Part 1 answer: " + str(solve_fancy_keypad(input))

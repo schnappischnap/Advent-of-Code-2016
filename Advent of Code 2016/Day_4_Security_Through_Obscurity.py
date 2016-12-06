@@ -1,18 +1,5 @@
 import re, collections
 
-def get_list_input():
-    l = []
-    i = 0
-    while True:
-        input = raw_input(str(i) + ": ")
-        if input == "":
-            break
-        l.append(input)
-        i += 1
-
-    return l
-
-
 def split_input(input):
     sections = [x for x in re.split('-|\[|\]', input) if x]
 
@@ -60,10 +47,7 @@ def get_shifted_sector_id(rooms):
 
 
 if __name__ == "__main__":
-    print "Part 1 input:"
-    a = get_list_input()   
-    print "Puzzle answer: " + str(get_real_sector_id_sum(a))
-
-    print "\nPart 2 input:"
-    a = get_list_input()  
-    print "Puzzle answer: " + str(get_shifted_sector_id(a))
+    with open("day_4_input.txt") as f:
+        input = f.readlines()
+        print "Part 1 answer: " + str(get_real_sector_id_sum(input))
+        print "Part 1 answer: " + str(get_shifted_sector_id(input))

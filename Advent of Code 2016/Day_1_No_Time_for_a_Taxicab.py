@@ -53,8 +53,7 @@ def first_visited_twice_distance(input):
 
 
 if __name__ == '__main__':
-    input = raw_input("Part 1 input: ")
-    print("Puzzle answer: " + str(rectilinear_distance(input)))
-
-    input = raw_input("\nPart 2 input: ")
-    print("Puzzle answer: " + str(first_visited_twice_distance(input)))
+    with open("day_1_input.txt") as f:
+        input = f.readlines()[0]
+        print "Part 1 answer: " + str(rectilinear_distance(input))
+        print "Part 1 answer: " + str(first_visited_twice_distance(input))
