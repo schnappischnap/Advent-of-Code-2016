@@ -29,6 +29,9 @@
     <Compile Include="Day_4_Security_Through_Obscurity.py" />
     <Compile Include="Day_5_How_About_a_Nice_Game_of_Chess.py" />
     <Compile Include="Day_6_Signals_and_Noise.py" />
+    <Compile Include="Day_7_Internet_Protocol_Version_7.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_1_input.txt" />
@@ -37,6 +40,7 @@
     <Content Include="day_4_input.txt" />
     <Content Include="day_5_input.txt" />
     <Content Include="day_6_input.txt" />
+    <Content Include="day_7_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
