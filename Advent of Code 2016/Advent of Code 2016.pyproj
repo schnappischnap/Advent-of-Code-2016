@@ -32,6 +32,9 @@
     <Compile Include="Day_7_Internet_Protocol_Version_7.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_8_Two_Factor_Authentication.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_1_input.txt" />
@@ -41,6 +44,7 @@
     <Content Include="day_5_input.txt" />
     <Content Include="day_6_input.txt" />
     <Content Include="day_7_input.txt" />
+    <Content Include="day_8_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
