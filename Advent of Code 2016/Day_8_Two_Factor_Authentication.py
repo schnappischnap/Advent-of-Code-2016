@@ -28,8 +28,7 @@ def solve_screen(input):
 
 # Part 1
 def count_pixels():
-    flatten = [item for sublist in screen for item in sublist if item == "#"]
-    return len(flatten)
+    return len([item for sublist in screen for item in sublist if item == "#"])
 
 
 # Part 2
