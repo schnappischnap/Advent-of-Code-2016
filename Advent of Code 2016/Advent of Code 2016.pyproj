@@ -26,6 +26,12 @@
     <Compile Include="Day_10_Balance_Bots.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_11_Radioisotope_Thermoelectric_Generators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day_12_Leonardo%27s_Monorail.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Day_1_No_Time_for_a_Taxicab.py" />
     <Compile Include="Day_2_Bathroom_Security.py" />
     <Compile Include="Day_3_Squares_With_Three_Sides.py" />
@@ -44,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_10_input.txt" />
+    <Content Include="day_11_input.txt" />
+    <Content Include="day_12_input.txt" />
     <Content Include="day_1_input.txt" />
     <Content Include="day_2_input.txt" />
     <Content Include="day_3_input.txt" />
