@@ -34,8 +34,6 @@ def solve(input, part = 1):
     return values["a"]
 
 
-
-
 if __name__ == "__main__":
     with open("day_12_input.txt") as f:
         input = f.readlines()
