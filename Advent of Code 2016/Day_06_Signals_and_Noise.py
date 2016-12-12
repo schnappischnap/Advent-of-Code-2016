@@ -1,11 +1,9 @@
 from collections import Counter
 
-# Part 1
 def decode(input):
     return "".join(Counter(x).most_common()[0][0] for x in zip(*input))
 
 
-# Part 2
 def decode_again(input):
     return "".join(Counter(x).most_common()[-1][0] for x in zip(*input))
         

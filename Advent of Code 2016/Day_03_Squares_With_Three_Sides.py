@@ -4,7 +4,6 @@ def is_valid_triangle(input):
     return sides[0] + sides[1] > sides[2]
 
 
-# Part 1
 def count_valid_triangles(lines):
     valid_triangles = 0
 
@@ -15,7 +14,6 @@ def count_valid_triangles(lines):
     return valid_triangles
 
 
-# Part 2
 def count_valid_triangles_vertically(lines):
     steps = [x.split() for x in lines]
 

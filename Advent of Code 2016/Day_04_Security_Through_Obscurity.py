@@ -10,7 +10,6 @@ def split_input(input):
     return list(words), int(sector_id), str(checksum)
 
 
-# Part 1
 def get_real_sector_id_sum(rooms):
     sector_id_sum = 0
 
@@ -29,7 +28,6 @@ def get_real_sector_id_sum(rooms):
     return sector_id_sum
 
 
-# Part 2
 def get_shifted_sector_id(rooms):
     for room in rooms:
         words, sector_id, checksum = split_input(room)

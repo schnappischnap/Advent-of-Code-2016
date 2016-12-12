@@ -25,7 +25,6 @@ def get_ABAs(input):
     return a
 
 
-# Part 1
 def support_TLS(input):
     i = 0
     valid = False
@@ -39,7 +38,6 @@ def support_TLS(input):
     return valid
 
 
-# Part 2
 def support_SSL(input):
     sections = [x for x in re.split("\[|\]", input)]
     ABAs = [get_ABAs(x) for x in sections]

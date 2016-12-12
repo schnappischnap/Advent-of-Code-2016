@@ -1,4 +1,3 @@
-# Part 1
 def solve_9_keypad(steps):
     code = []
     position = 5
@@ -23,7 +22,6 @@ def solve_9_keypad(steps):
     return code
 
 
-# Part 2
 def solve_fancy_keypad(steps):
     keypad = [["*", "*", "1", "*", "*"],
               ["*", "2", "3", "4", "*"],

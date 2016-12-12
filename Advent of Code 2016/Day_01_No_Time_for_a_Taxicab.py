@@ -1,4 +1,3 @@
-# Part 1
 def rectilinear_distance(input):
     direction = 0
     position = [0,0]
@@ -22,7 +21,6 @@ def rectilinear_distance(input):
     return abs(position[0]) + abs(position[1])
 
 
-# Part 2
 def first_visited_twice_distance(input):
     direction = 0
     position = [0,0]

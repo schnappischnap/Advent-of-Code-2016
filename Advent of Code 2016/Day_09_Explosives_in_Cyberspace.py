@@ -1,4 +1,3 @@
-# Parts 1 and 2
 def decompressed_length(input, part):
     total = 0
     i = 0

@@ -26,12 +26,10 @@ def solve_screen(input):
                 screen[row_index][x] = row[(x - shift) % 50]
 
 
-# Part 1
 def count_pixels():
     return len([item for sublist in screen for item in sublist if item == "#"])
 
 
-# Part 2
 def print_screen():
     for item in screen:
         print "".join(item)

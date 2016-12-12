@@ -8,7 +8,6 @@ def is_int(s):
         return False
 
 
-# Part 1
 def get_password(input):
     code = []
 
@@ -23,7 +22,6 @@ def get_password(input):
     return "".join(code)
 
 
-# Part 2
 def get_second_password(input):
     code = ["X","X","X","X","X","X","X","X"]
 
