@@ -47,7 +47,7 @@ def get_shifted_sector_id(rooms):
 
 
 if __name__ == "__main__":
-    with open("day_4_input.txt") as f:
+    with open("day_04_input.txt") as f:
         input = f.readlines()
         print "Part 1 answer: " + str(get_real_sector_id_sum(input))
         print "Part 1 answer: " + str(get_shifted_sector_id(input))

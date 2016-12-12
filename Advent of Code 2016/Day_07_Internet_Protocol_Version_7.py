@@ -54,7 +54,7 @@ def support_SSL(input):
 
 
 if __name__ == "__main__":
-    with open("day_7_input.txt") as f:
+    with open("day_07_input.txt") as f:
         input = f.readlines()
         print "Part 1 answer: " + str(count_valid(input, support_TLS))
         print "Part 2 answer: " + str(count_valid(input, support_SSL))

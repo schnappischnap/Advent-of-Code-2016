@@ -41,7 +41,7 @@ def get_second_password(input):
 
 
 if __name__ == "__main__":
-    with open("day_5_input.txt") as f:
+    with open("day_05_input.txt") as f:
         input = f.readlines()[0]
         print "Part 1 answer: " + str(get_password(input))
         print "Part 2 answer: " + str(get_second_password(input))

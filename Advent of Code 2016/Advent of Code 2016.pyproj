@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3e817856-625e-449b-93df-6a1a2678225c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day_1_No_Time_for_a_Taxicab.py</StartupFile>
+    <StartupFile>Day_01_No_Time_for_a_Taxicab.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,19 +32,19 @@
     <Compile Include="Day_12_Leonardo%27s_Monorail.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Day_1_No_Time_for_a_Taxicab.py" />
-    <Compile Include="Day_2_Bathroom_Security.py" />
-    <Compile Include="Day_3_Squares_With_Three_Sides.py" />
-    <Compile Include="Day_4_Security_Through_Obscurity.py" />
-    <Compile Include="Day_5_How_About_a_Nice_Game_of_Chess.py" />
-    <Compile Include="Day_6_Signals_and_Noise.py" />
-    <Compile Include="Day_7_Internet_Protocol_Version_7.py">
+    <Compile Include="Day_01_No_Time_for_a_Taxicab.py" />
+    <Compile Include="Day_02_Bathroom_Security.py" />
+    <Compile Include="Day_03_Squares_With_Three_Sides.py" />
+    <Compile Include="Day_04_Security_Through_Obscurity.py" />
+    <Compile Include="Day_05_How_About_a_Nice_Game_of_Chess.py" />
+    <Compile Include="Day_06_Signals_and_Noise.py" />
+    <Compile Include="Day_07_Internet_Protocol_Version_7.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Day_8_Two_Factor_Authentication.py">
+    <Compile Include="Day_08_Two_Factor_Authentication.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Day_9_Explosives_in_Cyberspace.py">
+    <Compile Include="Day_09_Explosives_in_Cyberspace.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -52,15 +52,15 @@
     <Content Include="day_10_input.txt" />
     <Content Include="day_11_input.txt" />
     <Content Include="day_12_input.txt" />
-    <Content Include="day_1_input.txt" />
-    <Content Include="day_2_input.txt" />
-    <Content Include="day_3_input.txt" />
-    <Content Include="day_4_input.txt" />
-    <Content Include="day_5_input.txt" />
-    <Content Include="day_6_input.txt" />
-    <Content Include="day_7_input.txt" />
-    <Content Include="day_8_input.txt" />
-    <Content Include="day_9_input.txt" />
+    <Content Include="day_01_input.txt" />
+    <Content Include="day_02_input.txt" />
+    <Content Include="day_03_input.txt" />
+    <Content Include="day_04_input.txt" />
+    <Content Include="day_05_input.txt" />
+    <Content Include="day_06_input.txt" />
+    <Content Include="day_07_input.txt" />
+    <Content Include="day_08_input.txt" />
+    <Content Include="day_09_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

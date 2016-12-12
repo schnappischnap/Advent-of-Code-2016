@@ -11,7 +11,7 @@ def decode_again(input):
         
 
 if __name__ == '__main__':
-    with open("day_6_input.txt") as f:
+    with open("day_06_input.txt") as f:
         input = f.readlines()
         print "Part 1 answer: " + str(decode(input))
         print "Part 1 answer: " + str(decode_again(input))

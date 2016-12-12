@@ -22,7 +22,7 @@ def decompressed_length(input, part):
 
 
 if __name__ == "__main__":
-    with open("day_9_input.txt") as f:
+    with open("day_09_input.txt") as f:
         input = f.read()
         print "Part 1 answer: " + str(decompressed_length(input, 1))
         print "Part 2 answer: " + str(decompressed_length(input, 2))

@@ -53,7 +53,7 @@ def first_visited_twice_distance(input):
 
 
 if __name__ == '__main__':
-    with open("day_1_input.txt") as f:
+    with open("day_01_input.txt") as f:
         input = f.readlines()[0]
         print "Part 1 answer: " + str(rectilinear_distance(input))
         print "Part 1 answer: " + str(first_visited_twice_distance(input))
