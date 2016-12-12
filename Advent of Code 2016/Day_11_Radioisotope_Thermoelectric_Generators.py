@@ -1,3 +1,5 @@
+# Created following https://andars.github.io/aoc_day11.html
+
 from itertools import combinations
 import re
 import copy
