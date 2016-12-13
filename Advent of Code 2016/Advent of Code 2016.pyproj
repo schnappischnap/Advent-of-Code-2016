@@ -47,6 +47,9 @@
     <Compile Include="Day_09_Explosives_in_Cyberspace.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_13_A_Maze_of_Twisty_Little_Cubicles.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_10_input.txt" />
@@ -61,6 +64,7 @@
     <Content Include="day_07_input.txt" />
     <Content Include="day_08_input.txt" />
     <Content Include="day_09_input.txt" />
+    <Content Include="day_13_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
