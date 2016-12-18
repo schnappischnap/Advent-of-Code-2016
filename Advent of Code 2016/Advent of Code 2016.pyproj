@@ -62,6 +62,9 @@
     <Compile Include="Day_17_Two_Steps_Forward.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_18_Like_A_Rogue.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_10_input.txt" />
@@ -81,6 +84,7 @@
     <Content Include="day_15_input.txt" />
     <Content Include="day_16_input.txt" />
     <Content Include="day_17_input.txt" />
+    <Content Include="day_18_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
