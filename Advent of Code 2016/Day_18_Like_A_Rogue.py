@@ -1,25 +1,29 @@
-def count_traps(input, part = 1):
-    room = [[x for x in input]]
+def count_safe(input, part = 1):
+    previous_row = list(input)
+    safe_count = previous_row.count(".")
     rows = 400000 if part == 2 else 40
 
     for i in range(1, rows):
-        room.append([])
+        current_row = []
 
         for j in range(len(input)):
-            a = room[i - 1][j - 1] if j > 0 else "."
-            b = room[i - 1][j]
-            c = room[i - 1][j + 1] if j < 99 else "."
+            l = previous_row[j - 1] if j > 0 else "."
+            c = previous_row[j]
+            r = previous_row[j + 1] if j < 99 else "."
 
-            if a == c:
-                room[i].append(".")
+            if l == r:
+                current_row.append(".")
             else:
-                room[i].append("^")
+                current_row.append("^")
 
-    return sum(x.count(".") for x in room)
+        safe_count += current_row.count(".")
+        previous_row = current_row[:]
+
+    return safe_count
 
 
 if __name__ == "__main__":
     with open("day_18_input.txt") as f:
         input = f.read()
-        print "Part 1 answer: " + str(count_traps(input))
-        print "Part 2 answer: " + str(count_traps(input, 2))
+        print "Part 1 answer: " + str(count_safe(input))
+        print "Part 2 answer: " + str(count_safe(input, 2))
