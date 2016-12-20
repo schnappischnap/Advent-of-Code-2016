@@ -16,7 +16,6 @@ def solve(input):
     return lowest_ip, unblocked_count
         
 
-
 if __name__ == "__main__":
     with open("day_20_input.txt") as f:
         input = f.readlines()
