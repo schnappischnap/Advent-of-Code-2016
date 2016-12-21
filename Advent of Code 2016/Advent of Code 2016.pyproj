@@ -71,6 +71,9 @@
     <Compile Include="Day_20_Firewall_Rules.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_21_Scrambled_Letters_and_Hash.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_10_input.txt" />
@@ -93,6 +96,7 @@
     <Content Include="day_18_input.txt" />
     <Content Include="day_19_input.txt" />
     <Content Include="day_20_input.txt" />
+    <Content Include="day_21_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
