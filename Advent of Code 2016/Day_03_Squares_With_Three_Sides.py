@@ -35,4 +35,4 @@ if __name__ == '__main__':
     with open("day_03_input.txt") as f:
         input = f.readlines()
         print "Part 1 answer: " + str(count_valid_triangles(input))
-        print "Part 1 answer: " + str(count_valid_triangles_vertically(input))
+        print "Part 2 answer: " + str(count_valid_triangles_vertically(input))
