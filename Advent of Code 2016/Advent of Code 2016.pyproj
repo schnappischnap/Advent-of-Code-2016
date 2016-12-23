@@ -77,6 +77,9 @@
     <Compile Include="Day_22_Grid_Computing.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_23_Safe_Cracking.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_10_input.txt" />
@@ -101,6 +104,7 @@
     <Content Include="day_20_input.txt" />
     <Content Include="day_21_input.txt" />
     <Content Include="day_22_input.txt" />
+    <Content Include="day_23_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
