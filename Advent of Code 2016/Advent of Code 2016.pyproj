@@ -83,6 +83,9 @@
     <Compile Include="Day_24_Air_Duct_Spelunking.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Day_25_Clock_Signal.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="day_10_input.txt" />
@@ -109,6 +112,7 @@
     <Content Include="day_22_input.txt" />
     <Content Include="day_23_input.txt" />
     <Content Include="day_24_input.txt" />
+    <Content Include="day_25_input.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
